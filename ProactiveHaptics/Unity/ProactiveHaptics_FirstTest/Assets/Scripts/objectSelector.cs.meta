@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 599d3c0c625b36a40baab942f8a4ab3f
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - referenceCamera: {instanceID: 0}
+  - selectionLightPrefab: {instanceID: 0}
+  - glowingShader: {fileID: 4800000, guid: 4aafe0d0cf42e9449bfc551e21c355ef, type: 3}
+  - transparentGlowingShader: {fileID: 4800000, guid: 6f8146b8738e9124597eafa3cea3f8b8,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
