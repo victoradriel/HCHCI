@@ -1,0 +1,15 @@
+FrLeft	4.73
+FrCLft	5.23
+FrCRht	4.73
+FrRght	13.14
+TpLeft	11.45
+TpCRht	5.22
+TpRght	11.00
+OcLeft	17.65
+OcCLft	1.41
+OcCRht	4.73
+OcRght	31.03
+FTLeft	21.13
+FTCLft	5.23
+FTCRht	1.41
+FTRght	26.90
