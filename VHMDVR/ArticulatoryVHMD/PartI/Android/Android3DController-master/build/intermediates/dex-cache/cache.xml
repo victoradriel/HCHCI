@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\victo\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\victo\AndroidStudioProjects\Android3DController-master\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_b849427582f9a689faa119a0678f21c2c0cb0f27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\victo\.android\build-cache\d40817278b6408436d32ae9be99a26b7bbd43ac7\output\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\victo\AndroidStudioProjects\Android3DController-master\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_727cf0d943f27f867c97c8779a16239d1b66d7af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\victo\.android\build-cache\d40817278b6408436d32ae9be99a26b7bbd43ac7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\victo\AndroidStudioProjects\Android3DController-master\app\build\intermediates\pre-dexed\debug\classes_484c06e90b7acc2858180d9b847d86f47240635b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\victo\.android\build-cache\1517f9bda5d0ab69c5c7ffeadfa76562d411d3bc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\victo\AndroidStudioProjects\Android3DController-master\app\build\intermediates\pre-dexed\debug\classes_19e0f086deaa8ed363fca5aeefebe98debb04fbc.jar" />
+    </item>
+
+</items>
