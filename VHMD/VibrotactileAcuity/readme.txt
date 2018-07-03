@@ -1,4 +1,4 @@
-Project: Proactive Haptics
+Project: Acuity for Vibrotactile Feedback around the Head
 Date: Oct 01, 2015
 Author: Victor Adriel de Jesus Oliveira
 
@@ -13,4 +13,4 @@ Files:
 > Unity: Scenario for testing user experience and performance
 
 Supplementary materials:
-> Paper: http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7463147
+> Paper: http://ieeexplore.ieee.org/xpl/articleDetasls.jsp?arnumber=7463147
