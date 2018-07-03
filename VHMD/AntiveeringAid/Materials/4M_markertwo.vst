@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<KinematicModel MODEL="4M_markertwo" VERSION="2.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.vicon.com/Schemas/ViconVST.xsd">
+
+  <Parameters>
+    <Parameter HIDDEN="1" NAME="MarkerTwo_Length" PRIOR="83.8939743041992" SD="1.00000002004088e+020" VALUE="83.8939743041992"/>
+    <Parameter HIDDEN="1" NAME="MarkerTwo_Unlabeled7_y" PRIOR="40.2529602050781" SD="1.00000002004088e+020" VALUE="40.2529602050781"/>
+    <Parameter HIDDEN="1" NAME="MarkerTwo_Unlabeled7_z" PRIOR="-45.0536918640137" SD="1.00000002004088e+020" VALUE="-45.0536918640137"/>
+    <Parameter HIDDEN="1" NAME="MarkerTwo_Unlabeled4_x" PRIOR="-66.4601058959961" SD="1.00000002004088e+020" VALUE="-66.4601058959961"/>
+    <Parameter HIDDEN="1" NAME="MarkerTwo_Unlabeled4_y" PRIOR="1.42851305007935" SD="1.00000002004088e+020" VALUE="1.42851305007935"/>
+    <Parameter HIDDEN="1" NAME="MarkerTwo_Unlabeled4_z" PRIOR="-44.8934898376465" SD="1.00000002004088e+020" VALUE="-44.8934898376465"/>
+  </Parameters>
+
+  <Skeleton>
+    <Segment BOUNDS="-8.3894 -8.3894 -'MarkerTwo_Length' 8.3894 8.3894 0" CONTEXT="General" INERTIA="0 0 0 " MASS="0 " MASS-CENTRE="0 0 0 " NAME="MarkerTwo" RGB="255 164 0">
+      <JointFree BOUNDS="0 0 0 0 0 0 0 0 0 0 0 0" COVARIANCE="2.46490001678467 0 0 0 0 0  0 2.46490001678467 0 0 0 0  0 0 246.490005493164 0 0 0  0 0 0 1000000 0 0  0 0 0 0 1000000 0  0 0 0 0 0 1000000  " MEAN="0 0 0 0 0 0" NAME="World_MarkerTwo" POST-ORIENTATION="0 0 0" POST-POSITION="0 0 0" PRE-ORIENTATION="0 0 0" PRE-POSITION="0 0 0" SIGNS="+ + + + + + " T="* * * * * * ">
+        <JointTemplate COVARIANCE="2.46490001678467 0 0 0 0 0  0 2.46490001678467 0 0 0 0  0 0 246.490005493164 0 0 0  0 0 0 1000000 0 0  0 0 0 0 1000000 0  0 0 0 0 0 1000000  " MEAN="0 0 0 0 0 0" POST-ORIENTATION="0 0 0 " POST-POSITION="0 0 0 " PRE-ORIENTATION="0 0 0 " PRE-POSITION="0 0 0 " TPOSE-COVARIANCE="0.100000001490116 0 0 0 0 0  0 0.100000001490116 0 0 0 0  0 0 0.100000001490116 0 0 0  0 0 0 0.100000001490116 0 0  0 0 0 0 0.100000001490116 0  0 0 0 0 0 0.100000001490116  " TPOSE-MEAN="0 0 0 0 0 0"/>
+      </JointFree>
+    </Segment>
+  </Skeleton>
+
+  <MarkerSet>
+    <Markers>
+      <Marker COVARIANCE="1 0 0 0 1 0 0 0 1 " NAME="left" POSITION="0 0 -0" RADIUS="12.5" RGB="255 164 0" SEGMENT="MarkerTwo" STATUS="required">
+        <MarkerTemplate COVARIANCE="1 0 0 0 1 0 0 0 1 " PLACEMENT-COVARIANCE="1 0 0 0 1 0 0 0 1 " POSITION="0 0 0"/>
+      </Marker>
+      <Marker COVARIANCE="1 0 0 0 1 0 0 0 1 " NAME="right" POSITION="8.88178e-016 -7.10543e-015 -83.894" RADIUS="12.5" RGB="255 164 0" SEGMENT="MarkerTwo" STATUS="required">
+        <MarkerTemplate COVARIANCE="1 0 0 0 1 0 0 0 1 " PLACEMENT-COVARIANCE="1 0 0 0 1 0 0 0 1 " POSITION="0 0 -'MarkerTwo_Length'"/>
+      </Marker>
+      <Marker COVARIANCE="1 0 0 0 1 0 0 0 1 " NAME="front" POSITION="8.88178e-016 40.253 -45.0537" RADIUS="12.5" RGB="255 164 0" SEGMENT="MarkerTwo" STATUS="required">
+        <MarkerTemplate COVARIANCE="1 0 0 0 1 0 0 0 1 " PLACEMENT-COVARIANCE="1 0 0 0 1 0 0 0 1 " POSITION="0 'MarkerTwo_Unlabeled7_y' 'MarkerTwo_Unlabeled7_z'"/>
+      </Marker>
+      <Marker COVARIANCE="1 0 0 0 1 0 0 0 1 " NAME="top" POSITION="-66.4601 1.42851 -44.8935" RADIUS="12.5" RGB="255 164 0" SEGMENT="MarkerTwo" STATUS="optional">
+        <MarkerTemplate COVARIANCE="1 0 0 0 1 0 0 0 1 " PLACEMENT-COVARIANCE="1 0 0 0 1 0 0 0 1 " POSITION="'MarkerTwo_Unlabeled4_x' 'MarkerTwo_Unlabeled4_y' 'MarkerTwo_Unlabeled4_z'"/>
+      </Marker>
+    </Markers>
+    <Sticks>
+      <Stick MARKER1="left" MARKER2="right" RGB="255 164 0"/>
+      <Stick MARKER1="left" MARKER2="front" RGB="255 164 0"/>
+      <Stick MARKER1="left" MARKER2="top" RGB="255 164 0"/>
+      <Stick MARKER1="right" MARKER2="front" RGB="255 164 0"/>
+      <Stick MARKER1="right" MARKER2="top" RGB="255 164 0"/>
+      <Stick MARKER1="front" MARKER2="top" RGB="255 164 0"/>
+    </Sticks>
+  </MarkerSet>
+
+  <Alignment/>
+
+</KinematicModel>

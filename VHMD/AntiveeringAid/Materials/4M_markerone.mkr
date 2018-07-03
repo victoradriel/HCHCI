@@ -1,0 +1,14 @@
+!MKR#2
+[Display]
+rootmarker
+sona
+sonb
+sonc
+
+sonb,sonc
+sonb,rootmarker
+sonb,sona
+sonc,rootmarker
+sonc,sona
+rootmarker,sona
+

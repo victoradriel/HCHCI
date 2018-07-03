@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<KinematicModel MODEL="4M_markerone" VERSION="2.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.vicon.com/Schemas/ViconVST.xsd">
+
+  <Parameters>
+    <Parameter HIDDEN="1" NAME="Tline_Length" PRIOR="174.316055297852" SD="1.00000002004088e+020" VALUE="174.316055297852"/>
+    <Parameter HIDDEN="1" NAME="Tline_Unlabeled4_y" PRIOR="0.80616557598114" SD="1.00000002004088e+020" VALUE="0.80616557598114"/>
+    <Parameter HIDDEN="1" NAME="Tline_Unlabeled4_z" PRIOR="-87.9039688110352" SD="1.00000002004088e+020" VALUE="-87.9039688110352"/>
+    <Parameter HIDDEN="1" NAME="Tline_Unlabeled6_x" PRIOR="-56.1191520690918" SD="1.00000002004088e+020" VALUE="-56.1191520690918"/>
+    <Parameter HIDDEN="1" NAME="Tline_Unlabeled6_y" PRIOR="66.7822952270508" SD="1.00000002004088e+020" VALUE="66.7822952270508"/>
+    <Parameter HIDDEN="1" NAME="Tline_Unlabeled6_z" PRIOR="-86.9685592651367" SD="1.00000002004088e+020" VALUE="-86.9685592651367"/>
+  </Parameters>
+
+  <Skeleton>
+    <Segment BOUNDS="-17.4316 -17.4316 -'Tline_Length' 17.4316 17.4316 0" CONTEXT="General" INERTIA="0 0 0 " MASS="0 " MASS-CENTRE="0 0 0 " NAME="Tline" RGB="255 164 0">
+      <JointFree BOUNDS="0 0 0 0 0 0 0 0 0 0 0 0" COVARIANCE="2.46490001678467 0 0 0 0 0  0 2.46490001678467 0 0 0 0  0 0 246.490005493164 0 0 0  0 0 0 1000000 0 0  0 0 0 0 1000000 0  0 0 0 0 0 1000000  " MEAN="0 0 0 0 0 0" NAME="World_Tline" POST-ORIENTATION="0 0 0" POST-POSITION="0 0 0" PRE-ORIENTATION="0 0 0" PRE-POSITION="0 0 0" SIGNS="+ + + + + + " T="* * * * * * ">
+        <JointTemplate COVARIANCE="2.46490001678467 0 0 0 0 0  0 2.46490001678467 0 0 0 0  0 0 246.490005493164 0 0 0  0 0 0 1000000 0 0  0 0 0 0 1000000 0  0 0 0 0 0 1000000  " MEAN="0 0 0 0 0 0" POST-ORIENTATION="0 0 0 " POST-POSITION="0 0 0 " PRE-ORIENTATION="0 0 0 " PRE-POSITION="0 0 0 " TPOSE-COVARIANCE="0.100000001490116 0 0 0 0 0  0 0.100000001490116 0 0 0 0  0 0 0.100000001490116 0 0 0  0 0 0 0.100000001490116 0 0  0 0 0 0 0.100000001490116 0  0 0 0 0 0 0.100000001490116  " TPOSE-MEAN="0 0 0 0 0 0"/>
+      </JointFree>
+    </Segment>
+  </Skeleton>
+
+  <MarkerSet>
+    <Markers>
+      <Marker COVARIANCE="1 0 0 0 1 0 0 0 1 " NAME="rootmarker" POSITION="0 0.806166 -87.904" RADIUS="12.5" RGB="255 164 0" SEGMENT="Tline" STATUS="required">
+        <MarkerTemplate COVARIANCE="1 0 0 0 1 0 0 0 1 " PLACEMENT-COVARIANCE="1 0 0 0 1 0 0 0 1 " POSITION="0 'Tline_Unlabeled4_y' 'Tline_Unlabeled4_z'"/>
+      </Marker>
+      <Marker COVARIANCE="1 0 0 0 1 0 0 0 1 " NAME="sona" POSITION="-56.1192 66.7823 -86.9686" RADIUS="12.5" RGB="255 164 0" SEGMENT="Tline" STATUS="optional">
+        <MarkerTemplate COVARIANCE="1 0 0 0 1 0 0 0 1 " PLACEMENT-COVARIANCE="1 0 0 0 1 0 0 0 1 " POSITION="'Tline_Unlabeled6_x' 'Tline_Unlabeled6_y' 'Tline_Unlabeled6_z'"/>
+      </Marker>
+      <Marker COVARIANCE="1 0 0 0 1 0 0 0 1 " NAME="sonb" POSITION="0 0 0" RADIUS="12.5" RGB="255 164 0" SEGMENT="Tline" STATUS="required">
+        <MarkerTemplate COVARIANCE="1 0 0 0 1 0 0 0 1 " PLACEMENT-COVARIANCE="1 0 0 0 1 0 0 0 1 " POSITION="0 0 0"/>
+      </Marker>
+      <Marker COVARIANCE="1 0 0 0 1 0 0 0 1 " NAME="sonc" POSITION="-7.10543e-015 -7.10543e-015 -174.316" RADIUS="12.5" RGB="255 164 0" SEGMENT="Tline" STATUS="required">
+        <MarkerTemplate COVARIANCE="1 0 0 0 1 0 0 0 1 " PLACEMENT-COVARIANCE="1 0 0 0 1 0 0 0 1 " POSITION="0 0 -'Tline_Length'"/>
+      </Marker>
+    </Markers>
+    <Sticks>
+      <Stick MARKER1="sonb" MARKER2="sonc" RGB="255 164 0"/>
+      <Stick MARKER1="sonb" MARKER2="rootmarker" RGB="255 164 0"/>
+      <Stick MARKER1="sonb" MARKER2="sona" RGB="255 164 0"/>
+      <Stick MARKER1="sonc" MARKER2="rootmarker" RGB="255 164 0"/>
+      <Stick MARKER1="sonc" MARKER2="sona" RGB="255 164 0"/>
+      <Stick MARKER1="rootmarker" MARKER2="sona" RGB="255 164 0"/>
+    </Sticks>
+  </MarkerSet>
+
+  <Alignment/>
+
+</KinematicModel>

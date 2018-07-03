@@ -1,0 +1,14 @@
+!MKR#2
+[Display]
+left
+right
+front
+top
+
+left,right
+left,front
+left,top
+right,front
+right,top
+front,top
+

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteSDKVicon", "TesteSDKVicon\TesteSDKVicon.csproj", "{81AEBAFB-47C5-4A49-8211-B5275EC124B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{302B68F1-B03A-4520-8DD0-0A11FABB6656}"
+	ProjectSection(SolutionItems) = preProject
+		TesteSDKVicon\boost_chrono-vc110-mt-1_55.dll = TesteSDKVicon\boost_chrono-vc110-mt-1_55.dll
+		TesteSDKVicon\boost_python-vc110-mt-1_55.dll = TesteSDKVicon\boost_python-vc110-mt-1_55.dll
+		TesteSDKVicon\boost_system-vc110-mt-1_55.dll = TesteSDKVicon\boost_system-vc110-mt-1_55.dll
+		TesteSDKVicon\boost_thread-vc110-mt-1_55.dll = TesteSDKVicon\boost_thread-vc110-mt-1_55.dll
+		TesteSDKVicon\DebugServices.dll = TesteSDKVicon\DebugServices.dll
+		TesteSDKVicon\ViconDataStreamSDK_CPP.dll = TesteSDKVicon\ViconDataStreamSDK_CPP.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81AEBAFB-47C5-4A49-8211-B5275EC124B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81AEBAFB-47C5-4A49-8211-B5275EC124B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81AEBAFB-47C5-4A49-8211-B5275EC124B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81AEBAFB-47C5-4A49-8211-B5275EC124B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
