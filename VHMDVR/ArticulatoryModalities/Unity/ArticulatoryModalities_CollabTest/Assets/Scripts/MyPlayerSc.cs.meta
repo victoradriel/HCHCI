@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 89844a17296e959448dac57a67ef3bdb
+timeCreated: 1503002145
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - ingPrefab: {fileID: 1444783664460796, guid: 1176f50eb5aeba14faaba1755b7497cd,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
