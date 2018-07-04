@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DEMO_shooter.CSharp", "DEMO_shooter.CSharp.csproj", "{1B0D8953-17A4-14AC-3604-3473E332AF14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DEMO_shooter.CSharp.Editor", "DEMO_shooter.CSharp.Editor.csproj", "{63A04403-EC01-A409-4BB6-84AC6CCBACD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B0D8953-17A4-14AC-3604-3473E332AF14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B0D8953-17A4-14AC-3604-3473E332AF14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B0D8953-17A4-14AC-3604-3473E332AF14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B0D8953-17A4-14AC-3604-3473E332AF14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63A04403-EC01-A409-4BB6-84AC6CCBACD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63A04403-EC01-A409-4BB6-84AC6CCBACD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63A04403-EC01-A409-4BB6-84AC6CCBACD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63A04403-EC01-A409-4BB6-84AC6CCBACD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
